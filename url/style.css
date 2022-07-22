@@ -28,23 +28,33 @@
   margin: 20px auto 0px auto;
 }
 
-.data {
-  margin-top: 20px;
-  font-size: 16px;
-}
-
-.data-text span {
-  font-size: 16px;
-}
-
 #protocol, #host, #path, #filename, #search, #hash {
   font-size: 20px;
 }
 
 #protocol {
   color: red;
+  font-weight: bold;
 }
+
+/* #protocol::after {
+  content: 'protocol';
+  position: absolute;
+  font-weight: lighter;
+  font-style: italic;
+  top: 40px;
+  left: 20px;
+} */
 
 #filename {
   color: blue;
 }
+
+/* #filename::after {
+  content: 'filename';
+  position: absolute;
+  font-weight: lighter;
+  font-style: italic;
+  top: 40px;
+  right: -20px;
+} */
