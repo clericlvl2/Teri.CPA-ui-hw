@@ -1,10 +1,17 @@
-function showEvenNames () {
+function showEvenNames() {
   let forms = document.querySelectorAll('.content__form');
   let textField = document.getElementById('even-forms');
-  for (let i = 1; i < forms.length; i+=2) {
-    textField.innerHTML += forms[i].name + ' ';
+  for (let i = 0; i < forms.length; i++) {
+    if (i%2 !== 0) {
+      if (i === forms.length-1) {
+        textField.innerHTML += forms[i].name + '.';
+        return;
+      }
+      textField.innerHTML += forms[i].name + ', ';
+    }
   }
 }
+
 showEvenNames();
 
 let buttonsShowName = document.querySelectorAll('.show-form-name');
@@ -27,6 +34,6 @@ for (let button of buttonsClear) {
 // Без учёта 4 кнопок
 for (let button of buttonsShowInputs) {
   button.addEventListener('click', () =>
-   alert(button.parentElement.parentElement.querySelectorAll('input').length-4))
+    alert(button.parentElement.parentElement.querySelectorAll('input').length - 4))
 }
 
