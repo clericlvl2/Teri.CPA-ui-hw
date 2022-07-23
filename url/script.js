@@ -1,5 +1,5 @@
-//const url = new URL (window.location.href);
-const url = new URL ('https://example.com/path1/path2/index.html?name=Jonathan%20Smith&age=18');
+const url = new URL (window.location.href);
+//const url = new URL ('https://example.com/path1/path2/index.html?name=Jonathan%20Smith&age=18');
 
 function showUrl (protocol, host, pathname, search, hash) {
   // cut path name for path and filename
