@@ -8,5 +8,11 @@ import { TimeInterface } from 'src/app/time-data-interface';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Teri-CPA-angular-hw';
+  currentPeriod: string = 'daily'
+  activityDataList: TimeInterface[] = TimeData
+  // get period after click event of card-user
+  getPeriod (newPeriod: string) {
+    this.currentPeriod = newPeriod
+  }
+  title = 'Teri-CPA-angular-hw'
 }

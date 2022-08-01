@@ -1,22 +1,17 @@
-<main class="container">
-  <section class="time-card" *ngFor="let item of timeData" [class]="setCardStyles(item.title)">
-    <div class="content-wrapper">
-      <header class="time-card__header">
-        <p class="time-card__logo card-work">{{item.title}}</p>
-        <button class="time-card__header-button">
-          <!--        123<img src="" alt="options-button" class="time-card__button-icon">-->
-        </button>
-      </header>
-      <div class="time-card__time-data time-data">
-        <p class="time-data__hours">{{item.timeframes['daily'].current}}hrs</p>
-        <div class="time-data__time-previous-container">
-          <p class="time-data__time-previous">
-            <span class="time-data__hours-previous">Last {{currentTimeFrame}} - </span>
-            <span class="time-data__hours-previous">{{item.timeframes.daily.previous}}hrs</span>
-          </p>
-        </div>
+<main class="time-card" [class]="setCardStyles(currentActivity.title)">
+  <div class="content-wrapper">
+    <header class="time-card__header">
+      <p class="time-card__header-logo">{{currentActivity.title}}</p>
+      <button class="time-card__header-button"></button>
+    </header>
+    <div class="time-card__time-data time-data">
+      <p class="time-data__hours">{{getHours(currentPeriod).current}}hrs</p>
+      <div class="time-data__time-previous-container">
+        <p class="time-data__time-previous">
+          <span class="time-data__hours-previous">Last {{periodToNoun(currentPeriod)}} -</span>
+          <span class="time-data__hours-previous">{{getHours(currentPeriod).previous}}hrs</span>
+        </p>
       </div>
     </div>
-  </section>
+  </div>
 </main>
-

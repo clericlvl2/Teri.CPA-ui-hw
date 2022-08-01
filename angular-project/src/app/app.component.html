@@ -1,1 +1,11 @@
-<app-card-user></app-card-user>
+<div class="grid-container">
+  <app-card-user class="first-item" (periodChangedEvent)="getPeriod($event)"></app-card-user>
+  <app-card-tracker *ngFor="let activityData of activityDataList"
+                    [currentActivity]="activityData"
+                    [currentPeriod]="currentPeriod"></app-card-tracker> <!--[currentTimeFrame]="newTimeFrame"-->
+</div>
+
+<!--<grid-container>-->
+<!--  <user-info (periodChanged)="methodCall($event)"></user-info>-->
+<!--  <time-tracker [hoursList]="hoursList" *ngFor "..."></time-tracker>-->
+<!--  </grid container>-->

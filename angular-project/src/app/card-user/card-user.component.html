@@ -1,17 +1,19 @@
-<main class="grid-container">
-  <section class="user-card">
-    <div class="user-card__info">
-      <img src="assets/images/image-jeremy.png" alt="user-image" class="user-card__user-pic">
+<main class="user-card">
+  <div class="user-card__user-info">
+    <img src="assets/images/image-jeremy.png" alt="user-image" class="user-card__user-pic">
+    <div class="user-card__text-wrapper">
       <p class="user-card__sub-title">Report for</p>
       <h1 class="user-card__user-name">Jeremy Robson</h1>
     </div>
-    <div class="user-card__control">
-      <button class="user-card__button button-daily" (click)="newTimeFrame = 'daily'">Daily</button>
-      <button class="user-card__button button-weekly" (click)="newTimeFrame = 'weekly'">Weekly</button>
-      <button class="user-card__button button-monthly" (click)="newTimeFrame = 'monthly'">Monthly</button>
-    </div>
-  </section>
-  <app-card-tracker [currentTimeFrame]="newTimeFrame"></app-card-tracker>
+  </div>
+  <div class="user-card__period-control">
+    <button class="user-card__button"
+            (click)="registerNewPeriod('daily')">Daily</button>
+    <button class="user-card__button"
+            (click)="registerNewPeriod('weekly')">Weekly</button>
+    <button class="user-card__button"
+            (click)="registerNewPeriod('monthly')">Monthly</button>
+  </div>
 </main>
 
 
