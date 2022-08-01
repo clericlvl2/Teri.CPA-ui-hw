@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2cf76ea8-d5e2-42d5-be57-eaa8d2728ac1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/app/card-tracker/card-tracker.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/app/card-tracker/card-tracker.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/app/card-tracker/card-tracker.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/app/card-tracker/card-tracker.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/app/card-user/card-user.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/app/card-user/card-user.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/app/card-user/card-user.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/app/card-user/card-user.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/app/card-user/image-jeremy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/app/time-data-interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/assets/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/assets/fonts/Rubik-VariableFont_wght.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/assets/images/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/assets/images/icon-ellipsis.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/assets/images/icon-exercise.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/assets/images/icon-play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/assets/images/icon-self-care.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/assets/images/icon-social.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/assets/images/icon-study.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/assets/images/icon-work.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/assets/images/image-jeremy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/assets/json/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/assets/style-guide.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-project/tsconfig.spec.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CkLsOcqvNXTtBrduGp8mUdQvmY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Desktop/artem/Teri.CPA-ui-hw/angular-project/src/app/card-user",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\Desktop\\artem\\Teri.CPA-ui-hw\\angular-project\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desktop\artem\Teri.CPA-ui-hw\angular-project\src\app\card-user" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Desktop\artem\Teri.CPA-ui-hw\angular-project\src\app" />
+      <recent name="D:\Desktop\artem\Teri.CPA-ui-hw\angular-project\src\assets\json" />
+      <recent name="D:\Desktop\artem\Teri.CPA-ui-hw\angular-project\src\assets" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2cf76ea8-d5e2-42d5-be57-eaa8d2728ac1" name="Changes" comment="" />
+      <created>1659341841442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659341841442</updated>
+      <workItem from="1659341842986" duration="850000" />
+      <workItem from="1659343791835" duration="4360000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

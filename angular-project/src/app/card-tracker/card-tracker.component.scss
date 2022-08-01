@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'Rubik'; /*a name to be used later*/
+  src: url('~src/assets/fonts/Rubik-VariableFont_wght.ttf'); /*URL to font*/
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.time-card {
+  display: flex;
+  align-items: flex-end;
+  width: 160px;
+  height: 160px;
+  background-color: white;
+  border-radius: 10px;
+  font-family: Rubik, Arial, monospace;
+}
+
+.content-wrapper {
+  width: 160px;
+  height: 130px;
+  border-radius: 10px;
+  background-color: hsl(235, 46%, 20%);
+}
+
+.time-card__header {
+  height: 40px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.time-card__logo {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+.time-card__header-button {
+  margin: 0;
+  padding: 0;
+  width: 21px;
+  height: 10px;
+  background: url("~src/assets/images/icon-ellipsis.svg") no-repeat center;
+  background-size: contain;
+  opacity: .6;
+  border: none;
+}
+
+.time-card__header-button:active {
+  transform: scale(0.96);
+}
+
+.time-card__header-button:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.time-data {
+  margin-top: 10px;
+  padding: 0 10px;
+}
+
+.time-data__hours {
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+  font-weight: 400;
+  color: white;
+}
+
+.time-data__time-previous-container {
+
+}
+
+.time-data__hours-previous {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 300;
+  color: hsl(236, 100%, 87%);
+}
+
+.work {
+  background: hsl(15, 100%, 70%) url("~src/assets/images/icon-work.svg") no-repeat right 15px top -5px;
+  background-size: 60px 60px;
+}
+
+.play {
+  background: hsl(195, 74%, 62%) url("~src/assets/images/icon-play.svg") no-repeat right 15px top -5px;
+  background-size: 60px 60px;
+}
+
+.study {
+  background: hsl(348, 100%, 68%) url("~src/assets/images/icon-study.svg") no-repeat right 15px top -5px;
+  background-size: 60px 60px;
+}
+
+.exercise {
+  background: hsl(145, 58%, 55%) url("~src/assets/images/icon-exercise.svg") no-repeat right 15px top -5px;
+  background-size: 60px 60px;
+}
+
+.social {
+  background: hsl(264, 64%, 52%) url("~src/assets/images/icon-social.svg") no-repeat right 15px top -5px;
+  background-size: 60px 60px;
+}
+
+.self-care {
+  background: hsl(43, 84%, 65%) url("~src/assets/images/icon-self-care.svg") no-repeat right 15px top -5px;
+  background-size: 60px 60px;
+}
