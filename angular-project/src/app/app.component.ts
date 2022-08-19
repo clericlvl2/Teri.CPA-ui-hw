@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import TimeData from 'src/assets/json/data.json';
-import { TimeInterface } from 'src/app/time-data-interface';
+import { ActivityPeriod, Activity } from 'src/app/models/time-data-interface';
+import { ActivityProviderService } from "./activity-provider.service";
 
 @Component({
   selector: 'app-root',
@@ -8,11 +8,10 @@ import { TimeInterface } from 'src/app/time-data-interface';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  currentPeriod: string = 'daily'
-  activityDataList: TimeInterface[] = TimeData
-  // get period after click event of card-user
-  getPeriod (newPeriod: string) {
-    this.currentPeriod = newPeriod
+  constructor(private activityService: ActivityProviderService) {}
+  activityList: Activity[] = this.activityService.getActivityData();
+  activityPeriod: string = this.activityService.getPeriod();
+  getTimeValues (item: Activity): ActivityPeriod {
+    return item.timeframes[this.activityPeriod as keyof typeof item.timeframes];
   }
-  title = 'Teri-CPA-angular-hw'
 }

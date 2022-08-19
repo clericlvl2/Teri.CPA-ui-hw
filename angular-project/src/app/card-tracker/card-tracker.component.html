@@ -1,15 +1,15 @@
-<main class="time-card" [class]="setCardStyles(currentActivity.title)">
+<main class="time-card" [class]="getCardStyle(activityName)">
   <div class="content-wrapper">
     <header class="time-card__header">
-      <p class="time-card__header-logo">{{currentActivity.title}}</p>
+      <p class="time-card__header-logo">{{activityName}}</p>
       <button class="time-card__header-button"></button>
     </header>
     <div class="time-card__time-data time-data">
-      <p class="time-data__hours">{{getHours(currentPeriod).current}}hrs</p>
+      <p class="time-data__hours">{{activityTime.current}}hrs</p>
       <div class="time-data__time-previous-container">
         <p class="time-data__time-previous">
-          <span class="time-data__hours-previous">Last {{periodToNoun(currentPeriod)}} -</span>
-          <span class="time-data__hours-previous">{{getHours(currentPeriod).previous}}hrs</span>
+          <span class="time-data__hours-previous">Last {{setPeriodText()}} -</span>
+          <span class="time-data__hours-previous">{{activityTime.previous}}hrs</span>
         </p>
       </div>
     </div>
