@@ -14,4 +14,5 @@ export class AppComponent {
   getTimeValues (item: Activity): ActivityPeriod {
     return item.timeframes[this.activityPeriod as keyof typeof item.timeframes];
   }
+  title = 'angular-project';
 }
