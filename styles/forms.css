@@ -1,3 +1,9 @@
+@import "button.css";
+
+.button-link {
+    background-color: rgba(246, 180, 96, .8);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +18,7 @@
 }
 
 .content {
+    position: relative;
     background-color: #F7EDE2;
     width: 80%;
     min-width: 800px;
@@ -31,7 +38,6 @@
 .content__gallery {
     display: flex;
     flex-wrap: wrap;
-    align-items: start;
     justify-content: space-around;
     align-items: center;
 
@@ -41,7 +47,7 @@
     background-color: rgba(245, 202, 195, .7);
     margin-top: 10px;
     padding: 10px 20px;
-    border: solid 0px #383D3B;
+    border: solid 0 #383D3B;
     border-radius: 10px;
 }
 

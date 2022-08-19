@@ -1,3 +1,9 @@
+@import "button.css";
+
+.button-link {
+    background-color: rgba(100, 149, 237, 0.6);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,10 +11,11 @@
 }
 
 .page {
-    background-color: cornflowerblue;
+    background-color: rgba(100, 149, 237, 0.6);
 }
 
 .content {
+    position: relative;
     font-family: Arial, Helvetica, sans-serif;
     background-color: aliceblue;
     width: 80%;

@@ -1,3 +1,9 @@
+@import "button.css";
+
+.button-link {
+    background-color: #BAC7BE;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -10,6 +16,7 @@
 }
 
 .content {
+    position: relative;
     background-color: rgba(255, 255, 255, .8);
     width: 80%;
     min-width: 800px;
