@@ -1,0 +1,35 @@
+// grid structure for elements
+
+.grid-container {
+  width: fit-content;
+  margin: 40px auto;
+  display: grid;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .grid-container {
+    margin: 20vh auto;
+    display: grid;
+    grid-template-columns: repeat(4, 160px);
+    grid-template-rows: repeat(2, 160px);
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .first-item {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 160px;
+    grid-template-rows: repeat(7, auto);
+    row-gap: 10px;
+  }
+}
+

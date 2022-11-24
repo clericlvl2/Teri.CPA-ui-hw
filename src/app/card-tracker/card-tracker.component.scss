@@ -1,0 +1,201 @@
+@font-face {
+  font-family: 'Rubik'; /*a name to be used later*/
+  src: url('~src/assets/fonts/Rubik-VariableFont_wght.ttf'); /*URL to font*/
+}
+
+// primary card styles
+
+.time-card {
+  display: flex;
+  align-items: flex-end;
+  width: 160px;
+  height: 160px;
+  background-color: white;
+  border-radius: 10px;
+  font-family: Rubik, Arial, monospace;
+
+  @media screen and (max-width: 768px) {
+    height: 80px;
+  }
+
+  // card-body header styles
+
+  &__header {
+    height: 40px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: 768px) {
+      height: 30px;
+    }
+  }
+
+  &__header-logo {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+
+    @media screen and (max-width: 768px) {
+      font-size: 12px;
+    }
+
+  }
+
+  &__header-button {
+    margin: 0;
+    padding: 0;
+    width: 18px;
+    height: 9px;
+    background: url("~src/assets/images/icon-ellipsis.svg") no-repeat center;
+    background-size: contain;
+    opacity: .6;
+    border: none;
+
+    @media screen and (max-width: 768px) {
+      width: 12px;
+      height: 6px;
+    }
+
+    &:hover {
+      cursor: pointer;
+      opacity: 1;
+    }
+
+    &:active {
+      transform: scale(0.96);
+    }
+  }
+}
+
+// card-body activity time styles
+
+.time-data {
+  margin: 0;
+  padding: 0 10px;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__hours {
+    margin: 0;
+    padding: 10px 0 0 0;
+    font-size: 32px;
+    font-weight: 300;
+    color: white;
+
+    @media screen and (max-width: 768px) {
+      margin: 0;
+      padding: 0;
+      font-size: 16px;
+    }
+  }
+
+  &__time-previous {
+    margin: 0;
+    padding: 5px 0 0 0;
+    display: flex;
+
+    @media screen and (max-width: 768px) {
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    align-items: center;
+  }
+
+  &__hours-previous {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 300;
+    color: hsl(236, 100%, 87%);
+
+    @media screen and (max-width: 768px) {
+      font-size: 8px;
+    }
+
+    &:last-of-type {
+      padding-left: 4px;
+
+      @media screen and (max-width: 768px) {
+        padding-left: 2px;
+      }
+    }
+  }
+}
+
+.content-wrapper {
+  width: 160px;
+  height: 80%;
+  padding: 5px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: hsl(235, 46%, 20%);
+
+  @media screen and (max-width: 768px) {
+    height: 75%;
+  }
+}
+
+// styles for different activities
+
+.work {
+  background: hsl(15, 100%, 70%) url("~src/assets/images/icon-work.svg") no-repeat right 15px top -5px;
+  background-size: 50px 50px;
+
+  @media screen and (max-width: 768px) {
+    background-size: 35px 35px;
+  }
+}
+
+.play {
+  background: hsl(195, 74%, 62%) url("~src/assets/images/icon-play.svg") no-repeat right 15px top -5px;
+  background-size: 50px 50px;
+
+  @media screen and (max-width: 768px) {
+    background-size: 35px 35px;
+  }
+}
+
+.study {
+  background: hsl(348, 100%, 68%) url("~src/assets/images/icon-study.svg") no-repeat right 15px top -5px;
+  background-size: 50px 50px;
+
+  @media screen and (max-width: 768px) {
+    background-size: 35px 35px;
+  }
+}
+
+.exercise {
+  background: hsl(145, 58%, 55%) url("~src/assets/images/icon-exercise.svg") no-repeat right 15px top -5px;
+  background-size: 50px 50px;
+
+  @media screen and (max-width: 768px) {
+    background-size: 35px 35px;
+  }
+}
+
+.social {
+  background: hsl(264, 64%, 52%) url("~src/assets/images/icon-social.svg") no-repeat right 15px top -5px;
+  background-size: 50px 50px;
+
+  @media screen and (max-width: 768px) {
+    background-size: 35px 35px;
+  }
+}
+
+.self-care {
+  background: hsl(43, 84%, 65%) url("~src/assets/images/icon-self-care.svg") no-repeat right 15px top -5px;
+  background-size: 50px 50px;
+
+  @media screen and (max-width: 768px) {
+    background-size: 35px 35px;
+  }
+}
