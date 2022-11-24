@@ -1,0 +1,84 @@
+@import "button.css";
+
+.button-link {
+    background-color: rgba(246, 180, 96, .8);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.page {
+    background-color: rgba(246, 180, 96, .8);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.content {
+    position: relative;
+    background-color: #F7EDE2;
+    width: 80%;
+    min-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.content__title {
+    text-align: center;
+    font-size: 24px;
+}
+
+.content__text {
+    margin: 20px 0;
+}
+
+.content__gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.content__card {
+    background-color: rgba(245, 202, 195, .7);
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: solid 0 #383D3B;
+    border-radius: 10px;
+}
+
+.content__form {
+    margin-top: 10px;
+}
+
+.content__form lable {
+    font-size: 14px;
+}
+
+.content__form input {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 20px;
+}
+
+.content__buttons {
+    margin-top: 20px;
+}
+
+.content__buttons input {
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    height: 20px;
+}
+
+lable, input {
+    display: block;
+}
+
+

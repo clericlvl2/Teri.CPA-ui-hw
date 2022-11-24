@@ -1,0 +1,79 @@
+@import "button.css";
+
+.button-link {
+    background-color: #BAC7BE;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.page {
+    background-color: #BAC7BE;
+    font-family: monospace, sans-serif;
+    font-size: 16px;
+}
+
+.content {
+    position: relative;
+    background-color: rgba(255, 255, 255, .8);
+    width: 80%;
+    max-width: 1000px;
+    min-width: 800px;
+    margin: 40px auto;
+    padding: 20px 10px;
+}
+
+.content__title {
+    text-align: center;
+    font-size: 24px;
+}
+
+.gallery {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.gallery__card {
+    background-color: rgba(194, 225, 194, .9);
+    width: 200px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.gallery__image-container {
+    margin: 0 auto 20px auto;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.gallery__image-desc {
+    font-style: italic;
+    font-family: monospace;
+    font-size: 18px;
+    text-align: center;
+}
+
+.bear {
+    object-position: -250px -120px;
+}
+
+.squirrel {
+    object-position: -400px -300px;
+}
+
+.fox {
+    object-position: -200px -80px;
+}
+
+
+
+

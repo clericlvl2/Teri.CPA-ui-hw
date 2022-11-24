@@ -1,0 +1,52 @@
+.page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, sans-serif;
+    background: #eee;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    min-width: 400px;
+    padding: 40px 60px;
+    background: #fff;
+    border: #383D3B 1px solid;
+}
+
+.title {
+    margin: 0 0 20px 0;
+    padding: 0;
+    text-align: center;
+    font-size: 48px;
+}
+
+.menu {
+    list-style: square;
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+}
+
+.menu__link {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Calibri Light", sans-serif;
+    color: black;
+    transition: color .15s;
+}
+
+.menu__link:hover {
+    color: blue;
+}
+
+.menu__link:active {
+    text-decoration: underline;
+}

@@ -1,0 +1,57 @@
+@import "button.css";
+
+.button-link {
+  background-color: lightgrey;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  background-color: lightgrey;
+}
+
+.content {
+  position: relative;
+  background-color: aliceblue;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 0;
+  width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+}
+
+.url {
+  font-weight: normal;
+  position: relative;
+  width: fit-content;
+  margin: 20px auto 0 auto;
+}
+
+.data {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.data-text span {
+  font-size: 16px;
+}
+
+#protocol, #host, #path, #filename, #search, #hash {
+  font-size: 20px;
+}
+
+#protocol {
+  color: red;
+}
+
+#filename {
+  color: blue;
+}
